@@ -1,7 +1,5 @@
 const { Validator } = require('../lib/Validator.js');
 
-
-
 //REQUIRED PERMUTATIONS
 // required and field missing
 const nameValidator = new Validator('name', {
@@ -50,13 +48,5 @@ describe('Validator class tests', () => {
     it('can take an object and throw an error', () => {
       expect(() => nameValidator.validate(noNameDog)).toThrowErrorMatchingSnapshot();
     });
-  
-
-    // it('can take an object and throw an error', () => {
-    //   expect(isNumber(3)).toBeTruthy();
-      
-    // });
-  
-
   });
 });
