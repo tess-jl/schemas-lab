@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Validator class tests Validator class method tests can take an object and throw an error 1`] = `undefined`;
